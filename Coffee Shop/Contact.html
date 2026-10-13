@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mocha Delights</title>
+    <meta name="description" content="Get in touch with Mocha Delights — address, email, phone and opening hours.">
+    <meta name="theme-color" content="#320000">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23320000'/%3E%3Cpath d='M16 26h28v10a12 12 0 0 1-12 12h-4a12 12 0 0 1-12-12V26z' fill='%23f5a524'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="wrap nav">
+            <a class="brand" href="Home.html" aria-label="Mocha Delights home">
+                <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#f5a524"/><path d="M15 27h30v9a13 13 0 0 1-13 13h-4a13 13 0 0 1-13-13v-9z" fill="#320000"/><path d="M45 30h3a5 5 0 0 1 0 10h-4" fill="none" stroke="#320000" stroke-width="3.5" stroke-linecap="round"/><path d="M24 12c-2 3 2 5 0 8M32 10c-2 3 2 5 0 8M40 12c-2 3 2 5 0 8" fill="none" stroke="#320000" stroke-width="2.6" stroke-linecap="round"/></svg>
+                Mocha Delights
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation"><span></span></button>
+            <nav aria-label="Main">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html" aria-current="page">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <section class="page-title">
+            <div class="wrap">
+                <h1>Contact Us</h1>
+                <p>Questions, feedback or just want to say hello? We&rsquo;d love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="wrap contact-grid">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <h3>Visit us</h3>
+                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@coffeeshopwebsite.com">info@coffeeshopwebsite.com</a></p>
+                    </li>
+                    <li class="contact-info">
+                        <h3>Call</h3>
+                        <p><a href="tel:+123456789">(123) 456-78909</a></p>
+                    </li>
+                    <li class="contact-info">
+                        <h3>Opening hours</h3>
+                        <p class="hours">
+                            <span>Monday &ndash; Friday: 9:00 AM &ndash; 5:00 PM</span>
+                            <span>Saturday: 10:00 AM &ndash; 3:00 PM</span>
+                            <span>Sunday: Closed</span>
+                        </p>
+                    </li>
+                </ul>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <h2>Send us a message</h2>
+                    <div class="field">
+                        <label for="name">Your name</label>
+                        <input type="text" class="input-text" id="name" name="name" autocomplete="name" aria-describedby="name-error" required>
+                        <p class="error-msg" id="name-error" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="email">Your email</label>
+                        <input type="email" class="input-text" id="email" name="email" autocomplete="email" aria-describedby="email-error" required>
+                        <p class="error-msg" id="email-error" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="message">Your message</label>
+                        <textarea class="input-text" id="message" name="message" aria-describedby="message-error" required></textarea>
+                        <p class="error-msg" id="message-error" role="alert"></p>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Send message</button>
+                    <p class="form-status" id="form-status" role="status" hidden></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-top">
+            <div class="footer-brand">
+                <a class="brand" href="Home.html"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#f5a524"/><path d="M15 27h30v9a13 13 0 0 1-13 13h-4a13 13 0 0 1-13-13v-9z" fill="#320000"/><path d="M45 30h3a5 5 0 0 1 0 10h-4" fill="none" stroke="#320000" stroke-width="3.5" stroke-linecap="round"/><path d="M24 12c-2 3 2 5 0 8M32 10c-2 3 2 5 0 8M40 12c-2 3 2 5 0 8" fill="none" stroke="#320000" stroke-width="2.6" stroke-linecap="round"/></svg> Mocha Delights</a>
+                <p>Exceptional coffee and handcrafted beverages, served one cup at a time.</p>
+            </div>
+            <div class="footer-col">
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Opening hours</h2>
+                <ul>
+                    <li>Mon – Fri: 9:00 AM – 5:00 PM</li>
+                    <li>Saturday: 10:00 AM – 3:00 PM</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap footer-bottom">
+            <p class="copyright-text">&copy; 2026 Mocha Delights. All rights reserved.</p>
+            <p class="policy-text">
+                <a href="#" class="policy-link">Privacy Policy</a>
+                <a href="#" class="policy-link">Refund Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
